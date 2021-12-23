@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 49px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    
+}
+
+.call-icon img{
+    position: relative;
+    left: 87px;
+    top: 2px;
+}
+
+.fb img{
+    position: relative;
+    left: -42px;
+}
+
+.twitter img{
+    position: relative;
+    left: -108px;
+
+    top: 2px;
+}
+
+.header a{
+    text-decoration: none;
+    color: #c2c1c1;
+}
+hr{
+    position: relative;
+    top: -6px;
+}
+
+.menu{
+    display: flex;
+    height: 84px;
+    width: 100%;
+    background-color:white;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 50px;
+    align-items: center;
+    
+ }
+.menu1 a{
+    text-decoration: none;
+    margin: 15px;
+    color: black;
+}
+
+.ad-container{
+    display: flex;
+    width: 100%;
+    height: 317px;
+    background-image: url(./bg1.jpg);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.link-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img1 img{
+    width: 143px;
+    height: 115px;
+}
+.img2 img{
+    width: 139px;
+    height: 60px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 153px;
+    background-color: white;
+    
+}
+.menu-container a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    
+}
+
+.menu-container ul{
+    position: relative;
+    left: -22px;
+}
+
+.os-container{
+    display: flex;
+    width: 100%;
+    height: 68px;
+    background-color: #0da3e2;
+    justify-content: space-around;
+}
+
+.os img{
+    margin: 20px;
+    align-items: center;
+    top: -7px;
+    position: relative;
+}
+
+body h2,body h5{
+    padding-left: 63px;
+}
+
+.images-container{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.layer{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    background-color: #0da3e2 ;
+    height: 29px;
+    color: white;
+    border-radius: 10px;
+}
+
+.hand-container{
+    display: flex;
+    
+}
+
+
+.handimg img{
+    width: 187px;
+    height: 112px;
+    margin-left: 138px;
+    margin-top: 20px;
+    
+}
+    .msg a{
+        position: relative;
+    left: 10px;
+    top: 50px;
+    text-decoration: none;
+    }
+
+    .nots p{
+        position: relative;
+    left: 304px;
+    text-decoration: none;
+    color: #0da3e2;
+    
+    }
+    .nots a{
+        text-decoration: none;
+    }
+    
+    .layer{
+        margin-top: 40px;
+    }
+
+    .footer-top-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .about-us,.services,.my-account,.contact-us,.useful-links{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .footer-top-container{
+        height: 411px;
+        background-color:  #313030;
+    }
+    .about-us a,.services a,.my-account a,.contact-us a,.useful-links a{
+        text-decoration: none;
+        color: #0da3e2;
+    }
+
+    .about-us h3,.services h3,.my-account h3,.contact-us h3,.useful-links h3{
+        color:#c2c1c1;
+    }
+
+    .footer-top-container{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 30px;
+    }
+    .footer-bottom-container{
+        display: flex;
+        height: 59px;
+        background-color: #272626;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer-bottom-container p,.footer-bottom-container a,.footer-bottom-container h5{
+        color:  #c2c1c1;
+
+    }
+    .footer-bottom-container button{
+        width: 330px;
+        height: 40px;
+        font-size: larger;
+        border-radius: 1px;
+    }
+
+    footer{
+        margin-top: 200px;
+    }
